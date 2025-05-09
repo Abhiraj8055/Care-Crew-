@@ -32,5 +32,4 @@ This is a full-stack web application that helps users find and hire maids and co
 - Socket.io or Firebase for real-time chat (optional)
 - Stripe/Razorpay for payments (optional future integration)
 
-## 📂 Folder Structure (Sample)
 
