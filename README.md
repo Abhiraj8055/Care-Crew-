@@ -1,73 +1,36 @@
-# Welcome to your Lovable project
+# Maid & Cook Hiring Web App
 
-## Project info
+This is a full-stack web application that helps users find and hire maids and cooks in their locality for monthly service. The platform supports user registration, service provider profiles, search and filtering, trial bookings, in-app communication, and more.
 
-**URL**: https://lovable.dev/projects/09aabd86-a28e-4113-8d4c-f8dee6d750f9
+## 🚀 Features
 
-## How can I edit this code?
+- 👤 User and Service Provider (maid/cook) registration
+- 🧾 Profile management with experience, availability, and skills
+- 🔍 Search and filter based on location, rating, and service type
+- 📅 Booking and scheduling system
+- 💬 In-app chat and call functionality
+- ⭐ Rating and review system
+- 🔐 Secure authentication (JWT)
+- 🌐 Mobile-friendly responsive design
 
-There are several ways of editing your application.
+## 🛠 Tech Stack
 
-**Use Lovable**
+**Frontend:**
+- React.js / Next.js (optional)
+- Tailwind CSS or Bootstrap
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/09aabd86-a28e-4113-8d4c-f8dee6d750f9) and start prompting.
+**Backend:**
+- Node.js
+- Express.js
 
-Changes made via Lovable will be committed automatically to this repo.
+**Database:**
+- MongoDB (with Mongoose)
 
-**Use your preferred IDE**
+**Other Tools:**
+- JWT for authentication
+- Cloudinary/Firebase for image storage
+- Socket.io or Firebase for real-time chat (optional)
+- Stripe/Razorpay for payments (optional future integration)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📂 Folder Structure (Sample)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/09aabd86-a28e-4113-8d4c-f8dee6d750f9) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
